@@ -20,6 +20,5 @@ public abstract class NhanVien {
         System.out.printf("Mã: %-8s | Họ tên: %-20s | Lương: %,10.2f VNĐ", maNV, hoTen, tinhLuong());
     }
 
-    // Phương thức trừu tượng để lớp con ghi đè
     public abstract double tinhLuong();
 }
